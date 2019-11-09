@@ -17,7 +17,7 @@ public class RecyclerViewAdapter extends RecyclerView.Adapter<RecyclerViewAdapte
     Context mContext;
     List<ContactList> mData;
 
-    public RecyclerViewAdapter(Contexgt mContext, List<ContactList> mData) {
+    public RecyclerViewAdapter(Context mContext, List<ContactList> mData) {
         this.mContext = mContext;
         this.mData = mData;
     }
